@@ -1,5 +1,6 @@
 h1 {
     color: blue;
+    background-color: yellow;
 }
 
 button {
@@ -8,5 +9,10 @@ button {
 }
 
 p {
-    color: aqua;
+    color: rgb(33, 116, 116);
+    background: lavender;
+}
+
+body {
+    background-color: rgb(82, 36, 102);
 }
