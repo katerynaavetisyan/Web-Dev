@@ -1,8 +1,14 @@
 h1 {
     text-align: center;
     font-weight: 400;
+    text-decoration: underline wavy;
+    letter-spacing: 10px;
 }
 
 a {
     text-decoration: none;
+}
+
+p {
+    line-height: 1;
 }
