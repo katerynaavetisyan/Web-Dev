@@ -1,9 +1,16 @@
 h1 {
+    color: #0000bb;
     text-align: center;
-    font-weight: 400;
-    text-decoration: #05f underline wavy;
-    letter-spacing: 10px;
-    font-size: 80px;
+    font-weight: 700;
+    text-decoration: #127096 underline wavy;
+    letter-spacing: 15px;
+    font-size: 30px;
+    font-family: Arial;
+    background-color: #f3eb00;
+}
+
+h2 {
+    color: #003984
 }
 
 a {
@@ -11,5 +18,6 @@ a {
 }
 
 p {
-    line-height: 1;
+    line-height: 2;
+    background-color: #f2e901;
 }
