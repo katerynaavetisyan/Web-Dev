@@ -1,11 +1,11 @@
 h1 {
-    color: #0000bb;
+    color: #5f5fa0;
     text-align: center;
     font-weight: 700;
-    text-decoration: #127096 underline wavy;
+    text-decoration: #357c98 underline wavy;
     letter-spacing: 15px;
     font-size: 30px;
-    font-family: Arial;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: #f3eb00;
 }
 
