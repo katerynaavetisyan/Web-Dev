@@ -20,4 +20,6 @@ a {
 p {
     line-height: 2;
     background-color: #878430;
+    text-align: center;
+    font-weight: 200;
 }
