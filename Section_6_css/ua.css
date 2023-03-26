@@ -13,6 +13,10 @@ h2 {
     color: #396c0e
 }
 
+h2:hover {
+    text-decoration: underline;
+}
+
 a {
     text-decoration: none;
 }
@@ -26,4 +30,13 @@ p {
 
 input[type="password"] {
     color: aquamarine;
+}
+
+button:hover {
+    background-color: bisque;
+    color: red;
+}
+
+button:active {
+    background-color: aqua;
 }
