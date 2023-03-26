@@ -1,8 +1,8 @@
 h1 {
-    color: #5f5fa0;
+    color: #75a05f;
     text-align: center;
     font-weight: 700;
-    text-decoration: #357c98 underline wavy;
+    text-decoration: #35983c underline wavy;
     letter-spacing: 15px;
     font-size: 30px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -10,7 +10,7 @@ h1 {
 }
 
 h2 {
-    color: #2d6cbe
+    color: #396c0e
 }
 
 a {
@@ -19,7 +19,11 @@ a {
 
 p {
     line-height: 2;
-    background-color: #878430;
+    background-color: #d3d2ae;
     text-align: center;
     font-weight: 200;
+}
+
+input[type="password"] {
+    color: aquamarine;
 }
