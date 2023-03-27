@@ -53,3 +53,11 @@ p::first-line {
 p::selection {
     background-color: lemonchiffon;
 }
+
+button {
+    background-color: aqua !important;
+}
+
+form {
+    color: rgb(255, 204, 0);
+}
