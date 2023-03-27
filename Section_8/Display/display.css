@@ -7,5 +7,7 @@ h1 {
 span {
     background-color: paleturquoise;
     border: 1px solid black;
-    display: block;
+    width: 500px;
+    padding: 50px;
+    margin: 50px;
 }
