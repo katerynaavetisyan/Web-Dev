@@ -3,3 +3,45 @@ div {
     height: 200px;
     background-color: aqua;
 }
+
+span {
+    margin-left: 50px;
+}
+
+h1 {
+    background-color: rgb(200, 153, 84);
+    width: 200px;
+    padding-left: 100px;
+    padding-top: 50px;
+    margin: 0;
+}
+
+#one {
+    background-color: rgb(223, 190, 148);
+    border-color: rgba(99, 73, 35, 0.572);
+    border-style: dashed;
+    border-width: 5px;
+    box-sizing: border-box;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+
+#two {
+    background-color: bisque;
+    border-color: black;
+    border-width: 5px;
+    border-style: dotted;
+    box-sizing: border-box;
+    margin: 200px;
+}
+
+#three {
+    background-color: rosybrown;
+    border: 5px solid black;
+    box-sizing: border-box;
+    border-radius: 30%/50%;
+}
+
+body {
+    margin: 0;
+}
