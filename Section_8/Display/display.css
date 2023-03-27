@@ -1,0 +1,11 @@
+h1 {
+    background-color: bisque;
+    border: 2px black solid;
+    display: inline;
+}
+
+span {
+    background-color: paleturquoise;
+    border: 1px solid black;
+    display: block;
+}
