@@ -61,3 +61,8 @@ button {
 form {
     color: rgb(255, 204, 0);
 }
+
+div {
+    width: 1000px;
+    height: 1000px;
+}
