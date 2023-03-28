@@ -4,6 +4,7 @@ h1 {
     width: 200px;
     padding: 50px;
     margin: 50px;
+    display: none;
 }
 
 span {
@@ -11,5 +12,14 @@ span {
     border: 1px solid black;
     width: 500px;
     padding: 50px;
+    margin: 50px;
+}
+
+div {
+    height: 200px;
+    width: 200px;
+    border: 5px solid black;
+    display: inline-block;
+    background-color: olivedrab;
     margin: 50px;
 }
