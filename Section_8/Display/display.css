@@ -1,7 +1,9 @@
 h1 {
     background-color: bisque;
     border: 2px black solid;
-    display: inline;
+    width: 200px;
+    padding: 50px;
+    margin: 50px;
 }
 
 span {
