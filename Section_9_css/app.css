@@ -15,3 +15,7 @@ section {
     height: 50%;
     background-color: yellow;
 }
+
+body {
+    font-family: 'Alkatra', cursive;
+}
