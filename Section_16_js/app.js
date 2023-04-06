@@ -24,3 +24,4 @@ if (password.length >= 6 && password.indexOf(" ") === -1) {
 } else {
     console.log("incorrect password")
 }
+let lottoNumbers = [1, 5, 165, 3654, 321, 32];
