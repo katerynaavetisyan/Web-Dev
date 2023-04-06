@@ -25,3 +25,6 @@ if (password.length >= 6 && password.indexOf(" ") === -1) {
     console.log("incorrect password")
 }
 let lottoNumbers = [1, 5, 165, 3654, 321, 32];
+let colors = [rad, yellow]
+colors[0] = 'red'
+colors
