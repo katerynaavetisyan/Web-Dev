@@ -27,3 +27,7 @@ if (password.length >= 6 && password.indexOf(" ") === -1) {
 const leaderboard = ['Harry', 'Lua', 'Hermione', 'Bellatrix']; //DON'T TOUCH THIS LINE!
 leaderboard[1] = 'Luna'
 leaderboard[3] = 'Draco'
+const planets = ['The Moon', 'Venus', 'Earth', 'Mars', 'Jupiter']; //DO NOT TOUCH THIS LINE!
+planets.shift('The Moon')
+planets.push('Saturn')
+planets.unshift('Mercury')
