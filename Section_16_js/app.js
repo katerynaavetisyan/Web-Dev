@@ -24,7 +24,6 @@ if (password.length >= 6 && password.indexOf(" ") === -1) {
 } else {
     console.log("incorrect password")
 }
-let lottoNumbers = [1, 5, 165, 3654, 321, 32];
-let colors = [rad, yellow]
-colors[0] = 'red'
-colors
+const leaderboard = ['Harry', 'Lua', 'Hermione', 'Bellatrix']; //DON'T TOUCH THIS LINE!
+leaderboard[1] = 'Luna'
+leaderboard[3] = 'Draco'
