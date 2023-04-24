@@ -13,3 +13,9 @@ function sum(numOne, numTwo) {
 const result = sum(2, 2);
 
 
+function raceResults(first, second, ...everyoneElse) {
+    console.log(`First goes to: ${first}`)
+    console.log(`Second goes to: ${second}`)
+    console.log(`All others:${everyoneElse}`)
+}
+
