@@ -21,3 +21,11 @@ const dataForm {
 }
 
 const newUser = { ...dataForm, id: 24959530853, isAdmin: false }
+
+function isSnakeEyes(n1, n2) {
+    if (n1 === 1; n2 === 1 ) {
+        console.log("Snake Eyes!");
+    }else {
+        console.log("Not Snake Eyes!");
+    }
+}
