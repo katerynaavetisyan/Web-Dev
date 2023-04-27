@@ -1,2 +1,3 @@
-const doneTodos = document.querySelectorAll('.done')
-const checkbox = document.querySelector('input[type=checkbox]')
+const eggImg = document.querySelector('img');
+eggImg.src = 'https://devsprouthosting.com/images/chicken.jpg';
+eggImg.alt = 'chicken';
