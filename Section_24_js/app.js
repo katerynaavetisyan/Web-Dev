@@ -1,7 +1,8 @@
-const container = document.querySelector('#container');
+const container = document.querySelector("#container");
+const baseURL = 'http://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/'
+for (let i = 1; i < 151; i++) {
+    const newImg = document.createElement('img');
+    newImg.src = `${baseURL}${i}.png`
+    container.appendChild(newImg)
 
-for (let i = 0; i < 100; i++) {
-    const btn = document.createElement('button');
-    btn.innerText = 'Click';
-    container.appendChild(btn);
 }
