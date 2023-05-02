@@ -1,10 +1,7 @@
-const colors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet'];
+const container = document.querySelector('#container');
 
-
-
-const spans = document.querySelectorAll('span');
-
-
-for (let i = 0; i < spans.length; i++) {
-    spans[i].style.color = colors[i];
+for (let i = 0; i < 100; i++) {
+    const btn = document.createElement('button');
+    btn.innerText = 'Click';
+    container.appendChild(btn);
 }
