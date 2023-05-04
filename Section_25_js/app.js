@@ -1,14 +1,10 @@
-const button = document.querySelector('button');
-const h2 = document.querySelector('h2');
-button.addEventListener('click', function () {
-    const newColor = makeRandomColor()
-
-    document.body.style.backgroundColor = newColor;
-    h2.textContent = newColor;
+const form = document.querySelector("#shelterForm");
+const input = document.querySelector("#catName");
+const list = document.querySelector("#cats");
+form.addEventListener("submit", function (e) {
+    e.preventDefault();
+    const catName = input.value;
+    const newLi = document.createElement("Li");
+    newLi.innerText = catName;
+    list.append(newLi);
 });
-const makeRandomColor = () => {
-    const r = Math.floor(Math.random() * 225);
-    const g = Math.floor(Math.random() * 225);
-    const b = Math.floor(Math.random() * 225);
-    return `  rgb(${r}, ${g}, ${b})`;
-}
